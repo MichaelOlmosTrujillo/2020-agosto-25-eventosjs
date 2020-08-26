@@ -1,0 +1,57 @@
+button {
+    padding: 10px;
+    background-color: black;
+    color: blanchedalmond;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+div {
+    background-color: blueviolet;
+
+    border: solid 2px brown;
+}
+
+.estilo0 {
+    background-color: blueviolet;
+    width: 300px;
+    height: 300px;
+    border: solid 2px brown;
+    margin-top: 20px;
+}
+
+.estilo1 {
+    background-color: blue;
+    width: 400px;
+    height: 500px;
+    border: solid 3px cadetblue;
+}
+
+.estilo2 {
+    background-color: rgb(173, 84, 20);
+    color: cornsilk;
+}
+
+h3 {
+    text-align: center;
+}
+
+input {
+    margin: 20px;
+}
+
+.padre {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 50px;
+    padding: 0px;
+}
+
+.hijo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 75px;
+    cursor: pointer;
+}
